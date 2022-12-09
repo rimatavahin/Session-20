@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        .header{
+            height: 550px;
+            /* border: 1px solid red; */
+            background-image: url(img/background.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding-top: 50px;
+            text-align: center;
+        }
+        .header .nav-list{
+            list-style-type: none;
+            /* text-align: center; */
+            
+        }
+        .header .nav-list .nav-item{
+            display: inline-block;
+            padding: 15px;
+        }
+        .header .nav-list .nav-item:hover{
+            color: orange;
+
+        }
+        .title{
+            /* border: 1px solid red; */
+            font-size: 60px;
+            margin-top: 90px;
+            color: orange;
+            text-align: center;
+        }
+        .description{
+            height: 60px;
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 500px;
+            margin: auto;
+            line-height: 60px;
+            border-radius: 50px;
+            border: 1px solid white;
+            margin-top: 30px;
+        }
+        .members{
+            text-align: center;
+            padding: 50px 30px;
+        }
+        .members h2{
+            font-size: 30px;
+        }
+        .member-list{
+            list-style-type: none;
+            /* text-align: center; */
+            margin-top: 25px;
+            
+        }
+        .member-item{
+            width: 350px;
+            /* background-color: red; */
+            display: inline-block;
+            margin: 10px;
+            box-shadow: 0 0 40px #bbbbbb;
+            
+        }
+        .pic{
+            width: 100%;
+
+        }
+        .member-bio{
+            /* background-color: yellow; */
+            padding: 20px;
+            text-align: justify;
+            font-size: 18px;
+
+        }
+        .name{
+            font-size: 25px;
+            margin-top: 5px;
+        }
+        .about{
+            height: 700px;
+            background-image: url(img/bg.jpg);
+            background-size: cover;
+            padding-top: 50px;
+            background-color:#373837;
+            background-blend-mode: multiply;
+
+
+        }
+        .circle{
+            width: 600px;
+            height: 600px;
+            /* background-color: red; */
+            background-color: rgb(135, 135, 135, 0.3);
+            margin: auto;
+            border-radius: 50%;
+            text-align: center;
+            padding: 100px 120px ;
+            color: white;
+            line-height: 40px;
+
+        }
+        .circle p {
+            /* margin: 10px; */
+            margin-top: 40px;
+            text-align: justify;
+
+        }
+        .circle h2{
+            font-size: 35px;
+        }
+        .footer{
+            width: 100%;
+            height: 100px;
+            background-color: #484848;
+            /* display: inline-block; */
+        }
+        .socials {
+            height: 60px;
+            background: #F2F2F2;
+            text-align: center;
+        }
+        .socials>img {
+            width: 40px;
+            margin: 10px;
+        }
+        .copyright{
+            margin-top: 15px;
+            /* padding: 0 450px; */
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            font-size: 12px;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <ul class="nav-list">
+            <li class="nav-item">Home</li>
+            <li class="nav-item">About me</li>
+            <li class="nav-item">Company Members</li>
+            <li class="nav-item">Product</li>
+            
+        </ul>
+        <h1 class="title">Web Developer Company</h1>
+        <p class="description">Designing all kinds of personal,Company and store websites</p>
+    </div>
+    <div class="members">
+        <h2>Member of Company</h2>
+        <ul class="member-list">
+            <li class="member-item">
+                <img class="pic" src="img/m1.jpg" alt="">
+                <h3 class="name">Kike Ruize</h3>
+                <p class="member-bio">Members List design concept designed by Dmytro Design. Connect with them on Dribbble; the global community for designers and creative professionals.Members List design concept designed by Dmytro Design. Connect with them on Dribbble; the global community for designers and creative professionals.</p>
+            </li>
+            <li class="member-item">
+                <img class="pic" src="img/m2.jpg" alt="">
+                <h3 class="name">Fatima Elazra</h3>
+                <p class="member-bio">Members List design concept designed by Dmytro Design. Connect with them on Dribbble; the global community for designers and creative professionals.Members List design concept designed by Dmytro Design. Connect with them on Dribbble; the global community for designers and creative professionals.</p>
+            </li>
+            <li class="member-item">
+                <img class="pic" src="img/m3.jpg" alt="">
+                <h3 class="name">Roza Helen</h3>
+                <p class="member-bio">Members List design concept designed by Dmytro Design. Connect with them on Dribbble; the global community for designers and creative professionals.Members List design concept designed by Dmytro Design. Connect with them on Dribbble; the global community for designers and creative professionals.</p>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="about">
+        <div class="circle">
+            <h2>About Company</h2>
+            <p>Members List design concept designed by Dmytro Design. Connect with them on Dribbble; the global community for designers and creative professionals.Members List design concept designed by Dmytro Design. Connect with them on Dribbble; the global community for designers and creative professionals.</p>
+        </div>
+    </div>
+    <br><br><br><br>
+    <div class="footer">
+        <div class="socials">
+            <img src="img/facebook.png" alt="">
+            <img src="img/youtube.png" alt="">
+            <img src="img/instagram.png" alt="">
+            
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2022 Rima Tavahin - About - Privacy Policy - Contact </p>
+        </div>
+    </div>
+    
+</body>
+</html>

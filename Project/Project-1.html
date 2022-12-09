@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(150, 170, 236);
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(34, 34, 34);
+        }
+
+        .container {
+            width: 700px;
+            height: 400px;
+            margin: 120px auto;
+            /* border: 1px solid red; */
+            position: relative;
+            box-shadow: 0 0 40px rgb(39, 39, 39);
+            border-radius: 10px 25px 10px 25px;
+        }
+
+        .card {
+            width: 300px;
+            height: 410px;
+            position: absolute;
+            top: -30px;
+            right: 30px;
+            border-radius: 10px 25px 10px 25px;
+            overflow: hidden;
+            box-shadow: 0 0 30px rgb(39, 39, 39);
+        }
+
+        .card p {
+            padding-right: 15px;
+            margin: 5px;
+
+        }
+
+        .picture {
+            width: 100%;
+        }
+
+        .bio {
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            left: 30px;
+            top: 30px;
+            text-align: justify;
+            line-height: 32px;
+            /* font-weight: bold; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <img class="picture" src="img/1517030870990.jpg" alt="">
+            <p>
+                <i class="fas fa-phone" style="font-size: 20px;"></i>
+                Phone:0924567
+            </p>
+            <p>
+                <i class="fas fa-at" style="font-size: 20px;"></i>
+                Email:Rima.tavahin@gmail.com
+            </p>
+            <p>
+                <i class="fab fa-instagram" style="font-size: 20px;"></i>
+                Instagram:Rima.Tavahin
+            </p>
+            <p>
+                <i class="fab fa-telegram-plane" style="font-size: 20px;"></i>
+                Telegram:Rima_Tavahin
+            </p>
+
+        </div>
+        <p class="bio">
+            Why Html : <br> HTML code ensures the proper formatting of text and images for your Internet browser.
+            Without HTML, a browser would not know how to display text as elements or load images or other elements.
+            HTML also provides a basic structure of the page, upon which Cascading Style Sheets are overlaid to change
+            its appearance.
+        </p>
+    </div>
+</body>
+
+</html>
